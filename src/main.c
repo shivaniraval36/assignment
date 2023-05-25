@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-//#include <uncertain.h>
+#include <uncertain.h>
 
 
 /***********************************************************************
