@@ -92,12 +92,12 @@ int main(int argc, char *	argv[])
     printf("Lift Force is (F)\t\t= %.1E N\n", lForce);
 
     // Uncertainity in pressure as per uniform distribution as minimum allowed pressure is 75 and maximum allowed pressure is 101
-    //unPressure = libUncertainDoubleUniformDist(75, 101);
-    //printf("UnCertainity Pressure = %lf\n", unPressure);
+    unPressure = libUncertainDoubleUniformDist(75, 101);
+    printf("UnCertainity Pressure = %lf\n", unPressure);
 
     // Uncertainity in tempreture as per uniform distribution as minimum allowed tempreture is -56 and maximum allowed tempreture is 53
-    //unTemp = libUncertainDoubleUniformDist(-56 , 53);
-    //printf("Uncertainity Tempreture = %lf\n", unTemp);
+    unTemp = libUncertainDoubleUniformDist(-56 , 53);
+    printf("Uncertainity Tempreture = %lf\n", unTemp);
 
     return 0;
 
