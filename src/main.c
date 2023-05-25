@@ -84,7 +84,7 @@ int main(int argc, char *	argv[])
     double unPressure = 0;
     double unTemp = 0;
 
-    airDen = airDensity(98000, 25);
+    airDen = airDensity(pre, temp);
 
     airVel = airVelocity(airDen, 0.020);
 
